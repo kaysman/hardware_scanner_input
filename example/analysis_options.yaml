@@ -1,0 +1,7 @@
+include: package:flutter_lints/flutter.yaml
+
+# The example app demonstrates usage; it doesn't need full public-API doc
+# comments or every lint enabled on the library itself.
+linter:
+  rules:
+    public_member_api_docs: false

@@ -1,0 +1,28 @@
+name: hardware_scanner_input
+description: >-
+  A Flutter widget that captures input from HID-mode hardware barcode scanners
+  on Android without showing the software keyboard. Supports Enter-suffix and
+  silence-flush scanners.
+version: 0.1.0
+repository: https://github.com/kaysman/hardware_scanner_input
+issue_tracker: https://github.com/kaysman/hardware_scanner_input/issues
+
+topics:
+  - barcode
+  - scanner
+  - hid
+  - android
+  - keyboard
+
+environment:
+  sdk: ^3.4.0
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
